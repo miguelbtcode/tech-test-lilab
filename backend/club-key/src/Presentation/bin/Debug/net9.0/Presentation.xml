@@ -1,0 +1,111 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Presentation</name>
+    </assembly>
+    <members>
+        <member name="M:Presentation.Controllers.AccountController.Login(Application.Features.Auth.Users.Commands.LoginUser.LoginUserCommand)">
+            <summary>
+            Inicia sesión en el sistema y obtiene un token de autenticación.
+            </summary>
+            <param name="command">Credenciales del usuario para autenticación.</param>
+            <returns>Token de acceso y datos del usuario autenticado.</returns>
+            <response code="200">Inicio de sesión exitoso.</response>
+            <response code="401">Credenciales inválidas.</response>
+        </member>
+        <member name="M:Presentation.Controllers.AccountController.Register(Application.Features.Auth.Users.Commands.RegisterUser.RegisterUserCommand)">
+            <summary>
+            Registra un nuevo usuario en el sistema.
+            </summary>
+            <param name="command">Datos del usuario a registrar.</param>
+            <returns>Información del usuario autenticado después del registro.</returns>
+            <response code="200">Usuario registrado exitosamente.</response>
+            <response code="400">Error en la solicitud, datos inválidos o usuario existente.</response>
+        </member>
+        <member name="M:Presentation.Controllers.CustomerController.PaginationCustomer(Application.Features.Customers.Queries.GetAuditRegister.GetAllCustomerPaginationQuery)">
+            <summary>
+            Obtiene una lista paginada de clientes.
+            </summary>
+            <param name="query">Parámetros de paginación y filtrado.</param>
+            <returns>Lista paginada de clientes.</returns>
+            <response code="200">Retorna la lista paginada de clientes.</response>
+            <response code="400">Error en la solicitud.</response>
+        </member>
+        <member name="M:Presentation.Controllers.CustomerController.PaginationCustomerActivity(Application.Features.Customers.Queries.GetCustomerActivityPagination.GetCustomerActivityPaginationQuery)">
+            <summary>
+            Obtiene una lista paginada de la actividad del cliente.
+            </summary>
+            <param name="query">Parámetros de paginación y filtrado.</param>
+            <returns>Lista paginada de la actividad de un cliente.</returns>
+            <response code="200">Retorna la lista paginada de la actividad de un cliente.</response>
+            <response code="400">Error en la solicitud.</response>
+        </member>
+        <member name="M:Presentation.Controllers.CustomerController.RegisterCustomer(Application.Features.Customers.Commands.RegisterCustomer.RegisterCustomerCommand)">
+            <summary>
+            Registra un nuevo cliente en el sistema.
+            </summary>
+            <param name="command">Datos del cliente a registrar.</param>
+            <response code="201">Cliente registrado correctamente.</response>
+            <response code="400">Error en la solicitud, datos inválidos o cliente existente.</response>
+        </member>
+        <member name="M:Presentation.Controllers.CustomerController.RegisterEntrance(Application.Features.Entrances.Commands.RegisterEntrance.RegisterEntranceCommand)">
+            <summary>
+            Registra la entrada de un usuario en el sistema.
+            </summary>
+            <param name="command">Datos de la entrada a registrar.</param>
+            <response code="201">Entrada registrada correctamente.</response>
+            <response code="400">Error en la solicitud, datos inválidos o entrada duplicada.</response>
+        </member>
+        <member name="M:Presentation.Controllers.CustomerController.RegisterExit(Application.Features.Exits.Commands.RegisterExit.RegisterExitCommand)">
+            <summary>
+            Registra la salida de un usuario en el sistema.
+            </summary>
+            <param name="command">Datos de la salida a registrar.</param>
+            <response code="201">Salida registrada correctamente.</response>
+            <response code="400">Error en la solicitud, datos inválidos o salida duplicada.</response>
+        </member>
+        <member name="M:Presentation.Controllers.UserController.GetUserList(Application.Features.Users.Queries.GetAllUsersPagination.GetAllUsersPaginationQuery)">
+            <summary>
+            Obtiene una lista paginada de usuarios.
+            </summary>
+            <param name="query">Parámetros de paginación y filtrado.</param>
+            <returns>Lista paginada de usuarios.</returns>
+            <response code="200">Retorna la lista paginada de usuarios.</response>
+            <response code="400">Error en la solicitud.</response>
+        </member>
+        <member name="M:Presentation.Controllers.UserController.RegisterUser(Application.Features.Auth.Users.Commands.RegisterUser.RegisterUserCommand)">
+            <summary>
+            Registra un nuevo usuario en el sistema.
+            </summary>
+            <param name="command">Datos del usuario a registrar.</param>
+            <response code="201">Usuario registrado correctamente.</response>
+            <response code="400">Error en la solicitud, datos inválidos o usuario existente.</response>
+        </member>
+        <member name="M:Presentation.Controllers.UserController.GetUserById(System.String)">
+            <summary>
+            Obtiene la información de un usuario por su ID.
+            </summary>
+            <param name="userId">Identificador único del usuario.</param>
+            <returns>Información del usuario autenticado.</returns>
+            <response code="200">Usuario encontrado correctamente.</response>
+            <response code="400">Error en la solicitud, usuario no encontrado o ID inválido.</response>
+        </member>
+        <member name="M:Presentation.Controllers.UserController.UpdateUser(Application.Features.Auth.Users.Commands.UpdateUser.UpdateUserCommand)">
+            <summary>
+            Actualiza la información de un usuario existente.
+            </summary>
+            <param name="command">Datos actualizados del usuario.</param>
+            <returns>Información del usuario actualizado.</returns>
+            <response code="200">Usuario actualizado correctamente.</response>
+            <response code="400">Error en la solicitud, datos inválidos o usuario no encontrado.</response>
+        </member>
+        <member name="M:Presentation.Controllers.UserController.DeleteUser(Application.Features.Auth.Users.Commands.DeleteUser.DeleteUserCommand)">
+            <summary>
+            Elimina un usuario del sistema.
+            </summary>
+            <param name="command">Comando con la información del usuario a eliminar.</param>
+            <response code="204">Usuario eliminado correctamente, sin contenido en la respuesta.</response>
+            <response code="400">Error en la solicitud, usuario no encontrado o datos inválidos.</response>
+        </member>
+    </members>
+</doc>

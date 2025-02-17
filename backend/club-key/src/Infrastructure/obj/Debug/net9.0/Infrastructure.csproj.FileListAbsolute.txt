@@ -1,0 +1,17 @@
+/Users/miguelbtcode/Cursos/backend/dotnet/architecture/club-key/src/Infrastructure/bin/Debug/net9.0/Infrastructure.deps.json
+/Users/miguelbtcode/Cursos/backend/dotnet/architecture/club-key/src/Infrastructure/bin/Debug/net9.0/Infrastructure.dll
+/Users/miguelbtcode/Cursos/backend/dotnet/architecture/club-key/src/Infrastructure/bin/Debug/net9.0/Infrastructure.pdb
+/Users/miguelbtcode/Cursos/backend/dotnet/architecture/club-key/src/Infrastructure/bin/Debug/net9.0/Application.dll
+/Users/miguelbtcode/Cursos/backend/dotnet/architecture/club-key/src/Infrastructure/bin/Debug/net9.0/Domain.dll
+/Users/miguelbtcode/Cursos/backend/dotnet/architecture/club-key/src/Infrastructure/bin/Debug/net9.0/Application.pdb
+/Users/miguelbtcode/Cursos/backend/dotnet/architecture/club-key/src/Infrastructure/bin/Debug/net9.0/Domain.pdb
+/Users/miguelbtcode/Cursos/backend/dotnet/architecture/club-key/src/Infrastructure/obj/Debug/net9.0/Infrastructure.csproj.AssemblyReference.cache
+/Users/miguelbtcode/Cursos/backend/dotnet/architecture/club-key/src/Infrastructure/obj/Debug/net9.0/Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/miguelbtcode/Cursos/backend/dotnet/architecture/club-key/src/Infrastructure/obj/Debug/net9.0/Infrastructure.AssemblyInfoInputs.cache
+/Users/miguelbtcode/Cursos/backend/dotnet/architecture/club-key/src/Infrastructure/obj/Debug/net9.0/Infrastructure.AssemblyInfo.cs
+/Users/miguelbtcode/Cursos/backend/dotnet/architecture/club-key/src/Infrastructure/obj/Debug/net9.0/Infrastructure.csproj.CoreCompileInputs.cache
+/Users/miguelbtcode/Cursos/backend/dotnet/architecture/club-key/src/Infrastructure/obj/Debug/net9.0/Infrastr.15EFFBFE.Up2Date
+/Users/miguelbtcode/Cursos/backend/dotnet/architecture/club-key/src/Infrastructure/obj/Debug/net9.0/Infrastructure.dll
+/Users/miguelbtcode/Cursos/backend/dotnet/architecture/club-key/src/Infrastructure/obj/Debug/net9.0/refint/Infrastructure.dll
+/Users/miguelbtcode/Cursos/backend/dotnet/architecture/club-key/src/Infrastructure/obj/Debug/net9.0/Infrastructure.pdb
+/Users/miguelbtcode/Cursos/backend/dotnet/architecture/club-key/src/Infrastructure/obj/Debug/net9.0/ref/Infrastructure.dll
