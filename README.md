@@ -1,8 +1,10 @@
 # tech-test-lilab
 
 Name: Miguel Angel Barreto Torres
-Frontend: https://club-key-site.netlify.app
-Backend: 
+
+## Frontend: https://club-key-site.netlify.app
+## Backend: https://clubkey-webapi-dme9c3ddahduacft.centralus-01.azurewebsites.net/swagger/index.html
+## Backend (Scalar): https://clubkey-webapi-dme9c3ddahduacft.centralus-01.azurewebsites/Scalar
 
 # Sistema de Gestión de Accesos para un Club Recreativo
 
