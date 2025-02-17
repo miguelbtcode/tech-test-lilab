@@ -1,6 +1,8 @@
 # tech-test-lilab
 
 Name: Miguel Angel Barreto Torres
+Frontend: https://club-key-site.netlify.app
+Backend: 
 
 # Sistema de Gestión de Accesos para un Club Recreativo
 
